@@ -1,0 +1,125 @@
+.bg-none{
+    background: none;
+}
+.bg-dark-blue{
+    background: #262342;
+}
+.ml-70{
+    margin-left: 70px;
+}
+.ml-40{
+    margin-left: 40px;
+}
+.image-logo{
+    max-height: 100%;
+}
+.bottom-0{
+    bottom: 0;
+}
+.text-orange{
+    color:#FD5334;
+}
+.w-24{
+    width: 24%;
+}
+.w-30{
+    width: 30%;
+}
+.fs-14{
+    font-size: 14px;
+}.fs-16{
+    font-size: 16px;
+}
+.section-hero{
+    background-image: url('../images/man-working-pottery-workshop1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 634px;
+}
+.gradik{
+    height: 70px;
+    background-image: linear-gradient(135deg,white 20%, #272443 20% 90%);
+}
+.wallpaper-h1{
+    font-size: 64px;
+}
+.wallpaper-p{
+    width: 530px;
+    font-size: 20px;
+}
+.header .card-title{
+    font-size: 24px;
+}
+.project1{
+    background-image: url(../images/img8.png);
+    height: 450px;
+    width: 32%;
+}
+.event-video{
+    width: 421px;
+    height: 193px;
+}
+.event-desc{
+    width: 615px;
+}
+.team-img{
+    height: 637px;
+    background-image: url(../images/img17.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* product css */
+.prd-img1{
+    height: 400px; 
+    width: 613px;
+    background-image: url(../images/Frame\ 12.png);
+}
+.prd-img-up{
+    height: 189px;
+    width: 171px;
+    background-image: url(../images/Frame\ 9.png);
+}
+.prd-img-down{
+    height: 203px;
+    width: 171px;
+    background-image: url(../images/Frame\ 11.png);
+}
+.prd-img3{
+    height: 400px; 
+    width: 310px;
+    background-image: url(../images/Frame\ 10.png);
+}
+.prd-img3 button{
+    bottom: 13px;
+    right: 23px;
+    Width:112px;
+}
+.prd-price{
+    Width :350px;
+    Height :295px;
+}
+.rating-revews{
+    width: 720px;
+}
+.revews-icon{
+    font-size: 36px;
+}
+
+/* shop css */
+
+.shop-sort{
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+/* cart */
+.cart-img{
+    background-image: url(../images/cart-img.png);
+    height: 109px;
+    width: 106px;
+}
+summary::marker {
+    display:none;
+  }
