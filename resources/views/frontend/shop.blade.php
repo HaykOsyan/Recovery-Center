@@ -1,5 +1,6 @@
 @extends('frontend.layouts.app')
-<div class="container">
+@section('content')
+    <div class="container">
     <h1>Shop</h1>
     <ul class="nav nav-tabs">
         <li class="nav-item">
@@ -89,3 +90,4 @@
         </nav>
     </div>
 </div>
+@endsection

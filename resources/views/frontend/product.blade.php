@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
-
-<div class="container main-product">
+@section('content')
+    <div class="container main-product">
     <div class="product-name d-flex justify-content-between">
         <h2 class="card-title">Product name</h5>
         <span><i class="far fa-heart"></i></span>
@@ -65,48 +65,49 @@
     <!-- <div class="prd-cards">
 
     </div> -->
-    <div class="shop-cards d-flex justify-content-between flex-wrap">
-                    <div class="card w-30">
-                      <div class="header d-flex d-flex justify-content-around">
-                        <h5 class="card-title">Product name</h5>
-                        <span><i class="far fa-heart text-orange"></i></span>
-                        <img src="images/bestseller.png" alt="best-seller" class="best-seller">
-                      </div>
-                      <div class="card-body">
-                      <p class="product-data">22.11.2020</p>
-                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                      <img class="card-img-top" src="images/img2.png" alt="Card image cap">
-                        <p class="product-price">Price $16</p>
-                        <a href="#" class="btn btn-primary w-100">Add to cart</a>
-                      </div>
-                    </div>
-                    <div class="card w-30">
-                      <div class="header d-flex d-flex justify-content-around">
-                        <h5 class="card-title">Product name</h5>
-                        <span><i class="far fa-heart text-orange"></i></span>
-                        <img src="images/bestseller.png" alt="best-seller" class="best-seller">
-                      </div>
-                      <div class="card-body">
-                      <p class="product-data">22.11.2020</p>
-                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                      <img class="card-img-top" src="images/img2.png" alt="Card image cap">
-                        <p class="product-price">Price $16</p>
-                        <a href="#" class="btn btn-primary w-100">Add to cart</a>
-                      </div>
-                    </div>
-                    <div class="card w-30">
-                      <div class="header d-flex d-flex justify-content-around">
-                        <h5 class="card-title">Product name</h5>
-                        <span><i class="far fa-heart text-orange"></i></span>
-                        <img src="images/bestseller.png" alt="best-seller" class="best-seller">
-                      </div>
-                      <div class="card-body">
-                      <p class="product-data">22.11.2020</p>
-                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                      <img class="card-img-top" src="images/img2.png" alt="Card image cap">
-                        <p class="product-price">Price $16</p>
-                        <a href="#" class="btn btn-primary w-100">Add to cart</a>
-                      </div>
-                    </div>
-                  </div>
+  <div class="shop-cards d-flex justify-content-between flex-wrap">
+      <div class="card w-30">
+        <div class="header d-flex justify-content-around">
+          <h5 class="card-title">Product name</h5>
+          <span><i class="far fa-heart text-orange"></i></span>
+          <img src="images/bestseller.png" alt="best-seller" class="best-seller">
+        </div>
+        <div class="card-body">
+        <p class="product-data">22.11.2020</p>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <img class="card-img-top" src="images/img2.png" alt="Card image cap">
+          <p class="product-price">Price $16</p>
+          <a href="#" class="btn btn-primary w-100">Add to cart</a>
+        </div>
+      </div>
+      <div class="card w-30">
+        <div class="header d-flex justify-content-around">
+          <h5 class="card-title">Product name</h5>
+          <span><i class="far fa-heart text-orange"></i></span>
+          <img src="images/bestseller.png" alt="best-seller" class="best-seller">
+        </div>
+        <div class="card-body">
+        <p class="product-data">22.11.2020</p>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <img class="card-img-top" src="images/img2.png" alt="Card image cap">
+          <p class="product-price">Price $16</p>
+          <a href="#" class="btn btn-primary w-100">Add to cart</a>
+        </div>
+      </div>
+      <div class="card w-30">
+        <div class="header d-flex d-flex justify-content-around">
+          <h5 class="card-title">Product name</h5>
+          <span><i class="far fa-heart text-orange"></i></span>
+          <img src="images/bestseller.png" alt="best-seller" class="best-seller">
+        </div>
+        <div class="card-body">
+        <p class="product-data">22.11.2020</p>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <img class="card-img-top" src="images/img2.png" alt="Card image cap">
+          <p class="product-price">Price $16</p>
+          <a href="#" class="btn btn-primary w-100">Add to cart</a>
+        </div>
+      </div>
+    </div>
 </div>
+@endsection

@@ -28,3 +28,19 @@ Route::get('/shop', function () {
 Route::get('/team', function () {
     return view('\frontend\team');
 });
+Route::get('/eventsingle', function () {
+    return view('\frontend\eventsingle');
+});
+Route::get('/projects', function () {
+    return view('\frontend\projects');
+});
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+require __DIR__.'/auth.php';
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
