@@ -1,5 +1,5 @@
 let icnUser = document.getElementById('icnUser');
-icnUser.addEventListener('mouseover',function (){
+icnUser.addEventListener('click',function (){
     showLoginRegPopup();
 });
 

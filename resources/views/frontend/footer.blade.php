@@ -29,5 +29,5 @@
     </div>
   </div>
   <hr class="bg-light">
-  <p class="text-center text-light">© 2021 Lorem ipsum, inc. All rights reserved</p>
+  <p class="text-center text-light mb-0">© 2021 Lorem ipsum, inc. All rights reserved</p>
 </footer>

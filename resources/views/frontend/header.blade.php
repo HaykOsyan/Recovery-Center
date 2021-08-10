@@ -1,8 +1,8 @@
 <nav class="navbar navbar-expand-lg position-relative gradient-black-white" >
     <div id="loginRegPopup" class="position-absolute login-reg-popup">
         <div class="diagonal position-relative"></div>
-        <button type="button" class="btn btn-light col-lg-12 border-top-orange" data-toggle="modal" data-target="#signInModal">Log in</button>
-        <button type="button" class="btn btn-light col-lg-12" data-toggle="modal" data-target="#signUpModal">Register</button>
+        <button id="btn-login" type="button" class="btn btn-light col-lg-12 border-top-orange" data-toggle="modal" data-target="#signInModal">Log in</button>
+        <button id="btn-register" type="button" class="btn btn-light col-lg-12" data-toggle="modal" data-target="#signUpModal">Register</button>
     </div>
     <div class="logo ml-70">
         <a class="navbar-brand" href="javascript:void(0)">

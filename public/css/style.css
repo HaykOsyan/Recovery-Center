@@ -1,3 +1,7 @@
+h1, h2, h3{
+    font-family: Montserrat;
+    /*font-weight: bold;*/
+}
 .bg-none{
     background: none;
 }
@@ -22,6 +26,13 @@
 .font-sz-20{
     font-size: 20px;
 }
+.section-title{
+    font-size: 50px;
+}
+.project-title{
+    padding-left: 20px;
+    padding-top: 30px;
+}
 nav div .border-top-orange{
     border-top: 2px solid #FD5334;
 }
@@ -39,6 +50,19 @@ nav div .border-top-orange{
     transform: rotate(45deg);
     background-image: linear-gradient(135deg,#FD5334 50%, white 50% 100%);
 }
+nav #loginRegPopup{
+    z-index: 1;
+}
+#loginRegPopup #btn-login{
+    border-bottom-left-radius: unset ;
+    border-bottom-right-radius: unset ;
+}
+#loginRegPopup #btn-register{
+    border-radius: unset;
+    }
+.h-70{
+    height: 70px;
+}
 .w-24{
     width: 24%;
 }
@@ -50,6 +74,9 @@ nav div .border-top-orange{
 }.fs-16{
     font-size: 16px;
 }
+ .pr-60{
+     padding-right: 60px;
+ }
 .section-hero{
     background-image: url('../images/man-working-pottery-workshop1.png');
     background-size: cover;
@@ -70,10 +97,32 @@ nav div .border-top-orange{
 .header .card-title{
     font-size: 24px;
 }
-.project1{
+.project{
     background-image: url(../images/img8.png);
     height: 450px;
     width: 32%;
+}
+.best-seller{
+    top: 0;
+    right: 20px;
+}
+.pd-r-l-20{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.section-shop ul li .nav-link,
+.section-events ul li .nav-link,
+.rating-revews ul li .nav-link{
+    border: none;
+    color: #333333;
+}
+.event-title{
+    font-size: 24px;
+}
+.container .rating-revews ul li .active,
+.container .section-shop ul li .active,
+.container .section-events ul li .active{
+    border-bottom: 3px solid #0077FF;
 }
 .event-video{
     width: 421px;
@@ -88,7 +137,6 @@ nav div .border-top-orange{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 /* product css */
 .prd-img1{
@@ -116,9 +164,21 @@ nav div .border-top-orange{
     right: 23px;
     Width:112px;
 }
+.prd-desc{
+    width: 720px;
+}
+.link-prd-see-all{
+    color: #333333;
+    text-decoration: underline;
+}
+#add-signature{
+    border: 1px solid rgba(45, 48, 53, 0.2);
+    border-radius: 3px;
+}
 .prd-price{
     Width :350px;
-    Height :295px;
+    /*border-radius: 10px;*/
+    /*box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);*/
 }
 .rating-revews{
     width: 720px;
