@@ -35,6 +35,13 @@ Route::get('/projects', function () {
     return view('\frontend\projects');
 });
 
+
+Route::get('/admin', function () {
+    return view('\backend\admin');
+});
+Route::resource('categories', \App\Http\Controllers\CategoriesController::class);
+Route::resource('properties', \App\Http\Controllers\PropertyItemController::class);
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
