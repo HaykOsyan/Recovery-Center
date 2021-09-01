@@ -21,6 +21,11 @@ class CreateProductsTable extends Migration
             $table->integer('quantity');
             $table->boolean('bestseller')->default(0);
             $table->timestamps();
+            $table->unsignedBigInteger('cat_id');
+            $table->foreign('cat_id')
+                ->references('id')->on('categories')
+                ->onUpdate('cascade')
+                ->onDelete('cascade');
         });
     }
 

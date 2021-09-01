@@ -18,6 +18,11 @@ class CreatePropertyItemsTable extends Migration
             $table->string('name_am')->unique();
             $table->string('name_en')->unique();
             $table->timestamps();
+            $table->unsignedBigInteger('prop_id');
+            $table->foreign('prop_id')
+                  ->references('id')->on('properties')
+                  ->onUpdate('cascade')
+                  ->onDelete('cascade');
         });
     }
 

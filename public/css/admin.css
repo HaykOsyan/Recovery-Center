@@ -1,0 +1,97 @@
+input{
+    outline: none;
+}
+.left-panel{
+    background: darkslategrey;
+    color: white;
+}
+.admin-header{
+    border-bottom: 1px solid black;
+    height: 50px;
+}
+.btn-admin-dropdown{
+    background: none;
+    border: none;
+    color: white;
+}
+.btn-add-item{
+    height: 100px;
+    width: 100px;
+    background: #718096;
+    border-radius: 10px;
+}
+.div-added-item{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    background-image: url("https://uc.uxpin.com/files/1079356/1048147/istockphoto_1014092414_612x612-19585190de0984aeb99b86d41e42e935-ef146b.jpg");
+}
+.delete-icon{
+    top: -20px;
+    right: -16px;
+}
+.partner-photo, .product-photo{
+    height: 100px;
+    width: 100px;
+    background: grey;
+}
+.team-desc{
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+#team-description{
+    border: none;
+}
+#save-team-desc{
+    height: 100%;
+    background: #39D874;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/*orders*/
+.orders .table tbody th,
+.orders .table tbody td{
+    vertical-align: middle;
+}
+.FieldInput_container__1N6yS {
+    padding: 12px 16px;
+    background: #f5f7fa;
+    font-size: 16px;
+    /*width: 100%;*/
+    min-height: 48px;
+    border: 1px solid #f5f7fa;
+    border-radius: 12px;
+    outline: none;
+    box-shadow: none;
+}
+.input-product{
+    border-radius: 25px;
+    border: 1px solid grey;
+    width: 70%;
+}
+.input-description{
+    height: 100px;
+    width: 70%;
+    border: 1px solid grey;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.select-admin{
+    height: 40px;
+}
+#currency-select{
+    width: 40%;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.input-price{
+    width: 15%;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+.btn-icon{
+    background: none;
+    border: none;
+}

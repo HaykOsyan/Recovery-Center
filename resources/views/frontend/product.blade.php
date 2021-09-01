@@ -2,7 +2,7 @@
 @section('content')
     <div class="container main-product">
         <div class="product-name d-flex justify-content-between mt-5">
-            <h2 class="card-title">Product name</h5>
+            <h2 class="card-title">Product name</h2>
             <span><i class="far fa-heart"></i></span>
         </div>
         <div class="product-images d-flex justify-content-between">

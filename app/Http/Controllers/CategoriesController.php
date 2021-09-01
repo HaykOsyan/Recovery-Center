@@ -37,9 +37,8 @@ class CategoriesController extends Controller
      */
     public function store(Request $request)
     {
-        $data['name_am']=$request->name_am;
-        $data['name_en']=$request->name_en;
-
+        $data['name_am']=$request->nameAm;
+        $data['name_en']=$request->nameEN;
         $category = new Category($data);
         $category->save();
         return $category;

@@ -1,4 +1,3 @@
-@include('frontend.modal')
 <footer class="bg-dark-blue">
   <div class="information d-flex justify-content-around align-items-center">
     <div class="company">

@@ -12,9 +12,16 @@ class PropertyItem extends Model
     {
         return $this->belongsTo(Property::class);
     }
+    public function products()
+    {
+        return $this->belongsToMany(Product::class);
+    }
 
     protected $fillable = [
         'name_am',
         'name_en',
+        'prop_id'
     ];
+
 }
+

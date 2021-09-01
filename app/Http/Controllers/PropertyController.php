@@ -38,11 +38,12 @@ class PropertyController extends Controller
      */
     public function store(Request $request)
     {
-        $data['name_am']=$request->name_am;
+        $data['name_am']=$request->get('name_am');
         $data['name_en']=$request->name_en;
 
         $property = new Property($data);
         $property->save();
+        $property-products()->attach($request->get('product_id'));
         return $property;
     }
 
@@ -54,7 +55,7 @@ class PropertyController extends Controller
      */
     public function show($id)
     {
-        //
+        $proporty = Property::where('id',$id)->with('products')->first();
     }
 
     /**

@@ -34,11 +34,36 @@ Route::get('/eventsingle', function () {
 Route::get('/projects', function () {
     return view('\frontend\projects');
 });
+Route::get('/account', function () {
+    return view('\frontend\account');
+});
 
 
 Route::get('/admin', function () {
     return view('\backend\admin');
 });
+Route::get('/admin/cover', function () {
+    return view('\backend\cover');
+});
+Route::get('/admin/team', function () {
+    return view('\backend\team');
+});
+Route::get('/admin/partners', function () {
+    return view('\backend\partners');
+});
+Route::get('/admin/orders', function () {
+    return view('\backend\orders');
+});
+Route::get('/admin/users', function () {
+    return view('\backend\users');
+});
+Route::get('/admin/products', function () {
+    return view('\backend\products');
+});
+Route::get('/admin/projects', function () {
+    return view('\backend\projects');
+});
+
 Route::resource('categories', \App\Http\Controllers\CategoriesController::class);
 Route::resource('properties', \App\Http\Controllers\PropertyItemController::class);
 

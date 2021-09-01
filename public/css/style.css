@@ -110,6 +110,7 @@ nav #loginRegPopup{
     padding-left: 20px;
     padding-right: 20px;
 }
+.container .account .account-information ul li .nav-link,
 .section-shop ul li .nav-link,
 .section-events ul li .nav-link,
 .rating-revews ul li .nav-link{
@@ -119,6 +120,7 @@ nav #loginRegPopup{
 .event-title{
     font-size: 24px;
 }
+.container .account .account-information ul li .active,
 .container .rating-revews ul li .active,
 .container .section-shop ul li .active,
 .container .section-events ul li .active{
@@ -220,4 +222,40 @@ summary::marker {
 }
 .project-description{
     width: 615px;
+}
+/*Account page*/
+
+.account-card-img{
+    height: 120px;
+    width: 120px;
+}
+.h2-account-info, .h2-card-info{
+    border-bottom: 1px solid #707070;
+}
+.your-account{
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+}
+.w-40{
+    width: 40%;
+}
+.btn-change-pswd{
+    width: 270px;
+    height: 30px;
+    background: #DBE0ED;
+    border-radius: 4px 4px 0px 0px;
+    margin-left: 40px;
+}
+.d-flex .active-account-btn{
+    border-left: 3px solid #0077FF;
+    background: #DBE0ED;
+}
+.btn-account{
+    background: none;
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgba(0,0,0,.05);
+}
+.span-date-of-order{
+    font-size: small;
 }

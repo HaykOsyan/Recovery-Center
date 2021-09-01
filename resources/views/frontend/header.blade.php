@@ -1,3 +1,4 @@
+@include('frontend.modal')
 <nav class="navbar navbar-expand-lg position-relative gradient-black-white" >
     <div id="loginRegPopup" class="position-absolute login-reg-popup">
         <div class="diagonal position-relative"></div>
