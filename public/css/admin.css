@@ -2,12 +2,41 @@ input{
     outline: none;
 }
 .left-panel{
-    background: darkslategrey;
+    background: #343A40;
     color: white;
+}
+.h-150{
+    height: 150px;
+}
+.dropdowns{
+    margin-top: 15%;
 }
 .admin-header{
     border-bottom: 1px solid black;
-    height: 50px;
+    height: 10%;
+}
+.admin-header i{
+    margin: 2%;
+    font-size: 35px;
+}
+#adminLogout{
+    margin: 2%;
+}
+.btn-admin-dropdown:focus{
+    outline: none;
+}
+.btn-admin-dropdown{
+    width: 100%;
+    outline: none;
+    text-align: left;
+    padding-left: 10%;
+}
+.left-panel i{
+    font-size: 30px;
+    padding-right: 20px;
+}
+.link-admin-menu{
+    color: white;
 }
 .btn-admin-dropdown{
     background: none;
@@ -17,7 +46,8 @@ input{
 .btn-add-item{
     height: 100px;
     width: 100px;
-    background: #718096;
+    background: #DADADA;
+    border: none;
     border-radius: 10px;
 }
 .div-added-item{
@@ -29,16 +59,30 @@ input{
 .delete-icon{
     top: -20px;
     right: -16px;
+    border: none;
+    background: none;
+    outline: none;
 }
 .partner-photo, .product-photo{
     height: 100px;
     width: 100px;
-    background: grey;
+    background: #DADADA;
 }
-.team-desc{
-    height: 150px;
-    border-radius: 10px;
-    border: 1px solid grey;
+.partners-body .partner-photo{
+    border-radius: 5%;
+}
+.partner-photo-file{
+    height: 200px;
+    width: 200px;
+    background:#DADADA ;
+}
+.label-file{
+    margin-top: 20%;
+}
+#inpTeamDescription{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #DADADA;
 }
 #team-description{
     border: none;
@@ -94,4 +138,16 @@ input{
 .btn-icon{
     background: none;
     border: none;
+}
+.btn-upload{
+    font-size: 20px;
+    padding: 20px;
+    height: 50px;
+    border-radius: 25px;
+    background: white;
+    margin-left: 50px;
+}
+.modal .modal-dialog .bg-border-none{
+    border: none;
+    background: none;
 }

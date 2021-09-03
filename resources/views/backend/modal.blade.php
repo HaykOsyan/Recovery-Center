@@ -254,3 +254,66 @@
     </div>
 </div>
 
+{{--upload photo video--}}
+<div class="modal fade" id="uploadModal" tabindex="-1" role="dialog" aria-labelledby="uploadModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content bg-border-none">
+            <div class="modal-body">
+                <input id="uploadCoverImage" type="file" class="d-none">
+                <label class="label-file" for="uploadCoverImage">
+                    <span class="btn-upload"><i class="far fa-file-image"></i> Upload image</span>
+                </label>
+                <input id="uploadCoverVideo" type="file" class="d-none">
+                <label class="label-file" for="uploadCoverVideo">
+                    <span class="btn-upload"><i class="far fa-file-video"></i> Upload video</span>
+                </label>
+            </div>
+        </div>
+    </div>
+</div>
+{{--add partners--}}
+<div class="modal fade" id="partnersModal" tabindex="-1" role="dialog" aria-labelledby="partnersModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body p-5">
+                <div class="d-flex justify-content-between mb-2">
+                    <img class="partner-photo-file" src="partner.photo" alt="partner  photo">
+                    <input id="uploadPartnerPhoto" type="file" class="d-none">
+                    <label class="label-file" for="uploadPartnerPhoto">
+                        <span class="btn btn-outline-success">Upload logo</span>
+                    </label>
+                </div>
+                <div class="mt-2">
+                    <input class="input-partner w-75 m-2" type="text" placeholder="partner name">
+                    <input class="input-partner w-75 m-2" type="url" placeholder="Website url">
+                </div>
+            </div>
+            <div class="text-center pb-2">
+                <button type="button" class="btn btn-success">Apply</button>
+            </div>
+        </div>
+    </div>
+</div>
+{{--add partners--}}
+<div class="modal fade" id="partnersModal" tabindex="-1" role="dialog" aria-labelledby="partnersModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body p-5">
+                <div class="d-flex justify-content-between mb-2">
+                    <img class="partner-photo-file" src="partner.photo" alt="partner  photo">
+                    <input id="uploadPartnerPhoto" type="file" class="d-none">
+                    <label class="label-file" for="uploadPartnerPhoto">
+                        <span class="btn btn-outline-success">Upload logo</span>
+                    </label>
+                </div>
+                <div class="mt-2">
+                    <input class="input-partner w-75 m-2" type="text" placeholder="partner name">
+                    <input class="input-partner w-75 m-2" type="url" placeholder="Website url">
+                </div>
+            </div>
+            <div class="text-center pb-2">
+                <button type="button" class="btn btn-success">Apply</button>
+            </div>
+        </div>
+    </div>
+</div>

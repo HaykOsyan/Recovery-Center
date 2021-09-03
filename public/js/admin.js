@@ -1,4 +1,18 @@
+// dropdowns
+let btnMainPage = document.getElementById('btnMainPage');
+let btnAddItems = document.getElementById('btnAddItems');
+let mainList = document.getElementById('mainList');
+let itemList = document.getElementById('itemList');
 
+function ToggleDisplay(elem){
+    elem.classList.toggle('d-none');
+}
+btnMainPage.addEventListener('click', ()=>{
+    ToggleDisplay(mainList);
+})
+btnAddItems.addEventListener('click', ()=>{
+    ToggleDisplay(itemList);
+})
 // let elemBtn = document.getElementById('category_delete');
 // elemBtn.addEventListener("click", function (){
 //     deleteCat();
